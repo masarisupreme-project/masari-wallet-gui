@@ -88,9 +88,9 @@ int main(int argc, char *argv[])
 
     qDebug() << "app startd";
 
-    app.setApplicationName("masari-gui");
-    app.setOrganizationDomain("getmasari.org");
-    app.setOrganizationName("masari-project");
+    app.setApplicationName("masarisupreme-gui");
+    app.setOrganizationDomain("masari-supreme.org");
+    app.setOrganizationName("masarisupreme-project");
 
     #if defined(Q_OS_LINUX) && !defined(Q_OS_ANDROID)
     app.setWindowIcon(QIcon(":/images/appicon.ico"));
@@ -238,7 +238,7 @@ int main(int argc, char *argv[])
 
 
     if (!moneroAccountsRootDir.empty()) {
-        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/Masari/wallets";
+        QString moneroAccountsDir = moneroAccountsRootDir.at(0) + "/MasariSupreme/wallets";
         engine.rootContext()->setContextProperty("moneroAccountsDir", moneroAccountsDir);
     }
 

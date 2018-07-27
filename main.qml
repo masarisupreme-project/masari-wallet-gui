@@ -43,7 +43,7 @@ import "wizard"
 
 ApplicationWindow {
     id: appWindow
-    title: "Masari-GUI"
+    title: "MasariSupreme-GUI"
 
     property var currentItem
     property bool whatIsEnable: false

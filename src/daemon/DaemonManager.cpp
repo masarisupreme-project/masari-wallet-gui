@@ -300,9 +300,9 @@ DaemonManager::DaemonManager(QObject *parent)
 
     // Platform depetent path to monerod
 #ifdef Q_OS_WIN
-    m_monerod = QApplication::applicationDirPath() + "/masarid.exe";
+    m_monerod = QApplication::applicationDirPath() + "/masarisupremed.exe";
 #elif defined(Q_OS_UNIX)
-    m_monerod = QApplication::applicationDirPath() + "/masarid";
+    m_monerod = QApplication::applicationDirPath() + "/masarisupremed";
 #endif
 
     if (m_monerod.length() == 0) {
